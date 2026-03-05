@@ -1,0 +1,78 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging and build artifacts
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+wheelhouse/
+
+# Test and coverage outputs
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+
+# Tooling caches
+.tox/
+.nox/
+.cache/
+
+# Notebooks and checkpoints
+.ipynb_checkpoints/
+
+# Logs and runtime files
+*.log
+*.out
+*.err
+*.pid
+*.seed
+*.stackdump
+
+# Local databases and dumps
+*.sqlite
+*.sqlite3
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Optional local Cursor/Codex state
+.cursor-cache/
+.codex-cache/
